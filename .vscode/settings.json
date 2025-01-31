@@ -1,0 +1,7 @@
+{
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "search.exclude": {
+        "**/target": true
+    },
+    "lldb.verboseLogging": true
+}

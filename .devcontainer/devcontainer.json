@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/cpp
 {
-	"name": "C++",
+	"name": "selfuse",
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
@@ -15,10 +15,19 @@
 		"vscode": {
 			"settings": {},
 			"extensions": [
-				"streetsidesoftware.code-spell-checker"
+				"llvm-vs-code-extensions.vscode-clangd",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.debugpy",
+				"rust-lang.rust-analyzer",
+				"ms-vscode.cpptools",
+				"ms-vscode.cmake-tools",
+				"vadimcn.vscode-lldb",
+				"ms-vscode.makefile-tools",//这里非常的混乱
+				"ms-vscode.cpptools-themes"
 			]
 		}
-	}
+	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
@@ -27,5 +36,5 @@
 	// "postCreateCommand": "gcc -v",
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
-	// "remoteUser": "root"
+	"remoteUser": "dev"
 }

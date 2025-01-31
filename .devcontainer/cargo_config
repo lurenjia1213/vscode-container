@@ -1,0 +1,9 @@
+[source.crates-io]
+replace-with = 'hust'
+
+[source.ustc]
+registry = "sparse+https://mirrors.ustc.edu.cn/crates.io-index/"
+[source.hust]
+registry = "sparse+https://mirrors.hust.edu.cn/crates.io-index/"
+[source.tuna]
+registry = "sparse+https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/"

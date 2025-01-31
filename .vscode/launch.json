@@ -1,4 +1,4 @@
-{
+/*{
     "version": "0.2.0",
     "configurations": [
         {
@@ -22,4 +22,30 @@
             "preLaunchTask": "Build Main"
         }
     ]
+}*/
+
+/*
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=hello_remote_world",
+                    "--package=hello_remote_world",
+                    "--manifest-path=Cargo.toml"
+                ],
+                "filter": {
+                    "kind": "bin"
+                }
+            },
+            "args": []
+        }
+    ]
 }
+*/
